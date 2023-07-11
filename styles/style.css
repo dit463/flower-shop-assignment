@@ -1,0 +1,41 @@
+/* ==============common stylw============= */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.common-button{
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* ================header secton ============== */
+header{
+    background-color: rgba(235, 207, 224, 0.699);
+    display: flex;
+    margin-bottom: 0px;
+}
+.header-description{
+    width: 45%;
+    text-align: left;
+    margin: 100px 0px 70px 120px;
+}
+.header-description h2{
+    font-size: 45px;
+}
+.header-description p{
+    color: cadetblue;
+    margin: 15px 0px;
+}
+.header-img{
+    width: 50%;  
+    display: flex;
+    justify-content: center;
+}
+.header-img img {
+    display: block;
+    margin-top: 40px;
+    max-width: 50%;
+    height: auto;
+  }
