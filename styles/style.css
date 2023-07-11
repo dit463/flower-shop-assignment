@@ -40,6 +40,138 @@ header{
     height: auto;
 }
 /* ================main part=============*/
+.first-section{
+    margin:100px 190px 0px ;
+}
 .description{
-    
+    text-align: center;
+    justify-content: center;
+}
+.description h3{
+    font-size: 25px;
+}
+.description p{
+    color: cadetblue ;
+    margin: 15px 0px ;
+}
+
+/* ================secend section================ */
+
+.firstsection{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: center;
+}
+.firstsection nav img{
+    width: 170px;
+    height: 230px;
+}
+.pink img{
+    background-color: thistle;
+    margin-right: 10px;
+    padding: 50px 30px 0px ;
+    border-radius: 50% 50% 0% 0%;
+}
+.rose img{
+    background-color: rgb(157, 231, 206);
+    margin-right: 10px;
+    padding: 50px 30px 0px ;
+    border-radius: 50% 50% 0% 0%;
+}
+.yellow img{
+    background-color: silver;
+    margin-right: 10px;
+    padding: 50px 30px 0px ;
+    border-radius: 50% 50% 0% 0%;
+}
+.firstsection h4{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    text-decoration: underline;
+}
+.system{
+    margin: 60px 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+.system-nav img{
+    display: flex;
+    justify-content: center;
+}
+
+/* =====================secend section=========== */
+
+.secend-section{
+    display: flex;
+    background-color: rgb(252, 243, 232);
+    padding: 50px 200px;
+}
+.secend-section-des{
+    padding-top: 200px;
+    margin-right: 25px;
+}
+
+/* ======================thard section=========== */
+
+.thard-section{
+    margin: 70px 150px;
+}
+.thard-section-img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding-top: 30px;
+}
+.thard-section-img img{
+    margin-right: 10px;
+}
+
+/* ====================last section============== */
+
+.last-section{
+
+    background-image: url('/Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 70px 170px;
+    padding: 50px;
+}
+.last-section-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.last-section-info input{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* ===================footrt=============== */
+
+footer{
+    background-color: rgb(59, 59, 59);
+    padding: 30px;
+}
+footer nav{
+    text-align: center;
+}
+footer nav h2{
+    font-size: 42px;
+}
+footer nav>p{
+    color: aliceblue;
+}
+.flower{
+    color: tomato;
+}
+.shop{
+    color: white;
+}
+#footer-last{
+    color: gray;
 }
